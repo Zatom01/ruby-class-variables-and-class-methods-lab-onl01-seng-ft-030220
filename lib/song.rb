@@ -9,7 +9,6 @@ class song
     @name
     @artist
     @genre
-  end
     
     @@count+=1 
     @@genres<<genre 
@@ -30,9 +29,9 @@ class song
   
   end 
   
-  def self.genre_count 
+  # def self.genre_count 
     
-  end
+  # end
 
 
 end
