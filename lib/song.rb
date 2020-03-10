@@ -25,7 +25,7 @@ class song
   end 
   
   def self.artists
-    @artists.uniq 
+    @@artists.uniq 
   
   end 
   
